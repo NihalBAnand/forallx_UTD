@@ -1,0 +1,2056 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.7)  14 NOV 2023 15:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./forallx.tex
+(forallx.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(forallx.sty
+Package: forallx 2011/10/29 support for a logic textbook
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
+y
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count194
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+)
+\@linkdim=\dimen141
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count198
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count199
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen142
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count266
+\Field@Width=\dimen143
+\Fld@charsize=\dimen144
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip50
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count272
+\mult@box=\box51
+\multicol@leftmargin=\dimen145
+\c@unbalance=\count273
+\c@collectmore=\count274
+\doublecol@number=\count275
+\multicoltolerance=\count276
+\multicolpretolerance=\count277
+\full@width=\dimen146
+\page@free=\dimen147
+\premulticols=\dimen148
+\postmulticols=\dimen149
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box52
+\last@line=\box53
+\mc@boxedresult=\box54
+\maxbalancingoverflow=\dimen150
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@firstbox=\box57
+\mult@gfirstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\c@minrows=\count278
+\c@columnbadness=\count279
+\c@finalcolumnbadness=\count280
+\last@try=\dimen151
+\multicolovershoot=\dimen152
+\multicolundershoot=\dimen153
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\mc@col@check@num=\count281
+)
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@dummy=\count282
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box97
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen154
+\ttl@minus=\dimen155
+\ttl@toksa=\toks19
+\titlewidth=\dimen156
+\titlewidthlast=\dimen157
+\titlewidthfirst=\dimen158
+)
+\c@eargnum=\count283
+\c@OLDeargnum=\count284
+\c@Example=\count285
+\c@ProbPart=\count286
+\c@countSeq=\count287
+\nd*ctr=\count288
+\nd*dim=\skip55
+\nd*depthdim=\dimen159
+\nd*hsep=\dimen160
+\nd*n=\count289
+) (C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count290
+\Gm@cntv=\count291
+\c@Gm@tempcnt=\count292
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks20
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 4.
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box98
+)
+No file forallx.aux.
+\openout1 = `forallx.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+Package hyperref Info: Link coloring OFF on input line 6.
+\@outlinefile=\write3
+\openout3 = `forallx.out'.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(108.405pt, 343.28249pt, 162.60751pt)
+* v-part:(T,H,B)=(86.724pt, 578.15999pt, 130.086pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=343.28249pt
+* \textheight=578.15999pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=90.33752pt
+* \topmargin=-15.61348pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\openout2 = `forallx-frontmatter.aux'.
+
+(forallx-frontmatter.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 29.85593pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 24.88794pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 20.73593pt on input line 3.
+
+[1
+
+
+{C:/Users/nihal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/niha
+l/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 9.59998pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 7.19998pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 5.99998pt on input line 40.
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 11.99997pt on input line 44.
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 8.39998pt on input line 44.
+) [2]
+No file forallx.toc.
+\tf@toc=\write4
+\openout4 = `forallx.toc'.
+
+[3
+
+
+
+]
+\openout2 = `forallx-ch1-intro.aux'.
+
+ (forallx-ch1-intro.tex
+Chapter 1.
+[4
+
+
+] [5]
+
+LaTeX Warning: Reference `argRaining' on page 6 undefined on input line 62.
+
+[6] [7]
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
+ [8]
+
+LaTeX Warning: Reference `Acontingent' on page 9 undefined on input line 172.
+
+
+LaTeX Warning: Reference `Atautology' on page 9 undefined on input line 174.
+
+
+LaTeX Warning: Reference `Acontradiction' on page 9 undefined on input line 176
+.
+
+[9] [10] [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+
+LaTeX Warning: Reference `app.solutions' on page 13 undefined on input line 293
+.
+
+[13]
+
+LaTeX Warning: Reference `MartianGiraffes' on page 14 undefined on input line 3
+26.
+
+) [14]
+\openout2 = `forallx-ch2-sentential.aux'.
+
+ (forallx-ch2-sentential.tex
+Chapter 2.
+[15
+
+
+
+
+] [16]
+
+LaTeX Warning: Reference `not1' on page 17 undefined on input line 88.
+
+
+LaTeX Warning: Reference `not1' on page 17 undefined on input line 96.
+
+
+LaTeX Warning: Reference `not2' on page 17 undefined on input line 98.
+
+
+LaTeX Warning: Reference `not1' on page 17 undefined on input line 98.
+
+
+LaTeX Warning: Reference `not3' on page 17 undefined on input line 100.
+
+
+LaTeX Warning: Reference `not2' on page 17 undefined on input line 100.
+
+
+LaTeX Warning: Reference `not2' on page 17 undefined on input line 100.
+
+
+LaTeX Warning: Reference `not3' on page 17 undefined on input line 100.
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 104--104
+[][] 
+ []
+
+[17]
+
+LaTeX Warning: Reference `not4' on page 18 undefined on input line 115.
+
+
+LaTeX Warning: Reference `not5' on page 18 undefined on input line 117.
+
+
+LaTeX Warning: Reference `not5' on page 18 undefined on input line 117.
+
+
+LaTeX Warning: Reference `not5b' on page 18 undefined on input line 119.
+
+
+LaTeX Warning: Reference `not4' on page 18 undefined on input line 119.
+
+
+LaTeX Warning: Reference `not6' on page 18 undefined on input line 128.
+
+
+LaTeX Warning: Reference `not7' on page 18 undefined on input line 130.
+
+
+LaTeX Warning: Reference `not7' on page 18 undefined on input line 130.
+
+
+LaTeX Warning: Reference `not7' on page 18 undefined on input line 130.
+
+[18]
+
+LaTeX Warning: Reference `and1' on page 19 undefined on input line 153.
+
+
+LaTeX Warning: Reference `and2' on page 19 undefined on input line 153.
+
+
+LaTeX Warning: Reference `and1' on page 19 undefined on input line 159.
+
+
+LaTeX Warning: Reference `and2' on page 19 undefined on input line 161.
+
+
+LaTeX Warning: Reference `and3' on page 19 undefined on input line 163.
+
+
+LaTeX Warning: Reference `and3' on page 19 undefined on input line 165.
+
+
+LaTeX Warning: Reference `and4' on page 19 undefined on input line 175.
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 179--179
+[][] 
+ []
+
+[19]
+
+LaTeX Warning: Reference `and5' on page 20 undefined on input line 181.
+
+
+LaTeX Warning: Reference `and6' on page 20 undefined on input line 183.
+
+
+LaTeX Warning: Reference `and6' on page 20 undefined on input line 185.
+
+
+LaTeX Warning: Reference `and7' on page 20 undefined on input line 187.
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 189--189
+[][] 
+ []
+
+
+Underfull \vbox (badness 5563) has occurred while \output is active []
+
+ [20]
+
+LaTeX Warning: Reference `or1' on page 21 undefined on input line 225.
+
+
+LaTeX Warning: Reference `or2' on page 21 undefined on input line 227.
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 232--232
+[][] 
+ []
+
+
+LaTeX Warning: Reference `or2' on page 21 undefined on input line 236.
+
+
+LaTeX Warning: Reference `or2' on page 21 undefined on input line 236.
+
+[21]
+
+LaTeX Warning: Reference `or3' on page 22 undefined on input line 265.
+
+
+LaTeX Warning: Reference `or4' on page 22 undefined on input line 267.
+
+
+LaTeX Warning: Reference `or.xor' on page 22 undefined on input line 271.
+
+
+LaTeX Warning: Reference `or.xor' on page 22 undefined on input line 271.
+
+[22]
+
+LaTeX Warning: Reference `if1' on page 23 undefined on input line 284.
+
+
+LaTeX Warning: Reference `if2' on page 23 undefined on input line 286.
+
+
+LaTeX Warning: Reference `if1' on page 23 undefined on input line 286.
+
+
+LaTeX Warning: Reference `if2' on page 23 undefined on input line 289.
+
+
+LaTeX Warning: Reference `if2' on page 23 undefined on input line 289.
+
+
+LaTeX Warning: Reference `if2' on page 23 undefined on input line 291.
+
+
+LaTeX Warning: Reference `if1' on page 23 undefined on input line 291.
+
+
+LaTeX Warning: Reference `if2' on page 23 undefined on input line 291.
+
+
+LaTeX Warning: Reference `if2' on page 23 undefined on input line 291.
+
+
+LaTeX Warning: Reference `if2' on page 23 undefined on input line 291.
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 295--295
+[][] 
+ []
+
+[23]
+
+LaTeX Warning: Reference `if5' on page 24 undefined on input line 332.
+
+[24]
+
+LaTeX Warning: Reference `iff1' on page 25 undefined on input line 345.
+
+
+LaTeX Warning: Reference `iff2' on page 25 undefined on input line 347.
+
+
+LaTeX Warning: Reference `iff3' on page 25 undefined on input line 349.
+
+
+LaTeX Warning: Reference `iff3' on page 25 undefined on input line 349.
+
+
+LaTeX Warning: Reference `iff3' on page 25 undefined on input line 351.
+
+
+LaTeX Warning: Reference `unless1' on page 25 undefined on input line 380.
+
+[25]
+
+LaTeX Warning: Reference `unless1' on page 26 undefined on input line 382.
+
+
+LaTeX Warning: Reference `unless2' on page 26 undefined on input line 384.
+
+
+LaTeX Warning: Reference `unless1' on page 26 undefined on input line 384.
+
+
+LaTeX Warning: Reference `unless1' on page 26 undefined on input line 386.
+
+
+LaTeX Warning: Reference `unless2' on page 26 undefined on input line 386.
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 391--391
+[][] 
+ []
+
+
+LaTeX Warning: Reference `app.symbolization' on page 26 undefined on input line
+ 393.
+
+[26] [27] [28] [29]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.1}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.496 \problempart
+                   Using the symbolization key given, translate each English...
+
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.513 \problempart
+                   Using the symbolization key given, translate each English...
+[30]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.540 \problempart
+                   Using the symbolization key given, translate each English...
+[31]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.4}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.569 \problempart
+                   [32]) [33]
+\openout2 = `forallx-ch3-truthtables.aux'.
+
+ (forallx-ch3-truthtables.tex
+Chapter 3.
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' will be
+(Font)              scaled to size 14.39996pt on input line 11.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34
+
+
+
+
+]
+Underfull \vbox (badness 3108) has occurred while \output is active []
+
+ [35]
+Overfull \hbox (10.8983pt too wide) in paragraph at lines 78--79
+\OT1/cmr/m/n/10 The col-umn of 1s un-der-neath the con-di-tional tells us that 
+the sen-tence []
+ []
+
+[36] [37]
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+ [38]
+[39] [40]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.1}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.280 \problempart
+                   [41]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.306 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.323 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.4}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.338 \problempart
+                   [42]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.5}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.355 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.6}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.375 \problempart
+                   [43]) [44]
+\openout2 = `forallx-ch4-predicate.aux'.
+
+ (forallx-ch4-predicate.tex
+Chapter 4.
+[45
+
+
+
+
+] [46] [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+[49]
+
+LaTeX Warning: Reference `terms1' on page 50 undefined on input line 145.
+
+
+LaTeX Warning: Reference `terms2' on page 50 undefined on input line 147.
+
+
+LaTeX Warning: Reference `terms3' on page 50 undefined on input line 149.
+
+
+LaTeX Warning: Reference `terms4' on page 50 undefined on input line 151.
+
+
+LaTeX Warning: Reference `terms4' on page 50 undefined on input line 151.
+
+
+LaTeX Warning: Reference `terms5' on page 50 undefined on input line 153.
+
+[50]
+
+LaTeX Warning: Reference `q.a' on page 51 undefined on input line 168.
+
+
+LaTeX Warning: Reference `q.a' on page 51 undefined on input line 170.
+
+
+LaTeX Warning: Reference `q.ac' on page 51 undefined on input line 174.
+
+
+LaTeX Warning: Reference `q.e' on page 51 undefined on input line 178.
+
+
+LaTeX Warning: Reference `q.e' on page 51 undefined on input line 178.
+
+
+LaTeX Warning: Reference `q.e' on page 51 undefined on input line 178.
+
+
+LaTeX Warning: Reference `q.ne' on page 51 undefined on input line 187.
+
+
+LaTeX Warning: Reference `q.ne' on page 51 undefined on input line 187.
+
+[51]
+
+LaTeX Warning: Reference `q.en' on page 52 undefined on input line 191.
+
+
+LaTeX Warning: Reference `q.na' on page 52 undefined on input line 193.
+
+
+LaTeX Warning: Reference `q.en' on page 52 undefined on input line 193.
+
+[52]
+
+LaTeX Warning: Reference `chimera1' on page 53 undefined on input line 232.
+
+
+LaTeX Warning: Reference `chimera2' on page 53 undefined on input line 232.
+
+
+LaTeX Warning: Reference `chimera1' on page 53 undefined on input line 236.
+
+
+LaTeX Warning: Reference `chimera1' on page 53 undefined on input line 236.
+
+
+LaTeX Warning: Reference `chimera2' on page 53 undefined on input line 236.
+
+
+LaTeX Warning: Reference `chimera1' on page 53 undefined on input line 238.
+
+[53]
+
+LaTeX Warning: Reference `subsec.defdesc' on page 54 undefined on input line 24
+0.
+
+
+LaTeX Warning: Reference `quan1' on page 54 undefined on input line 260.
+
+
+LaTeX Warning: Reference `quan1' on page 54 undefined on input line 260.
+
+[54]
+
+LaTeX Warning: Reference `quan1' on page 55 undefined on input line 262.
+
+
+LaTeX Warning: Reference `quan1' on page 55 undefined on input line 262.
+
+
+LaTeX Warning: Reference `quan2' on page 55 undefined on input line 264.
+
+
+LaTeX Warning: Reference `quan3' on page 55 undefined on input line 268.
+
+
+LaTeX Warning: Reference `quan3' on page 55 undefined on input line 268.
+
+
+LaTeX Warning: Reference `quan4' on page 55 undefined on input line 270.
+
+
+LaTeX Warning: Reference `quan4' on page 55 undefined on input line 270.
+
+
+LaTeX Warning: Reference `willard1' on page 55 undefined on input line 272.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+
+LaTeX Warning: Reference `monkey1' on page 56 undefined on input line 316.
+
+
+LaTeX Warning: Reference `monkey2' on page 56 undefined on input line 318.
+
+
+LaTeX Warning: Reference `monkey1' on page 56 undefined on input line 320.
+
+
+LaTeX Warning: Reference `monkey2' on page 56 undefined on input line 320.
+
+
+LaTeX Warning: Reference `monkey1' on page 56 undefined on input line 324.
+
+[56]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 343--343
+[][] 
+ []
+
+
+LaTeX Warning: Reference `pickUDrose' on page 57 undefined on input line 354.
+
+[57]
+
+LaTeX Warning: Reference `pickUDrose' on page 58 undefined on input line 356.
+
+
+LaTeX Warning: Reference `pickUDrose' on page 58 undefined on input line 356.
+
+
+LaTeX Warning: Reference `pickUDrose' on page 58 undefined on input line 358.
+
+
+LaTeX Warning: Reference `pickUDrose' on page 58 undefined on input line 362.
+
+
+LaTeX Warning: Reference `pickUDrose' on page 58 undefined on input line 369.
+
+
+LaTeX Warning: Reference `pickUDhair' on page 58 undefined on input line 369.
+
+
+LaTeX Warning: Reference `pickUDcross' on page 58 undefined on input line 369.
+
+
+LaTeX Warning: Reference `pickUDhair' on page 58 undefined on input line 380.
+
+
+LaTeX Warning: Reference `pickUDcross' on page 58 undefined on input line 382.
+
+
+LaTeX Warning: Reference `pickUDcross' on page 58 undefined on input line 382.
+
+[58]
+
+LaTeX Warning: Reference `pickUDcross' on page 59 undefined on input line 384.
+
+
+LaTeX Warning: Reference `pronoun1' on page 59 undefined on input line 411.
+
+
+LaTeX Warning: Reference `pronoun2' on page 59 undefined on input line 411.
+
+
+LaTeX Warning: Reference `pronoun1' on page 59 undefined on input line 413.
+
+
+LaTeX Warning: Reference `pronoun2' on page 59 undefined on input line 415.
+
+[59]
+
+LaTeX Warning: Reference `anyone1' on page 60 undefined on input line 427.
+
+
+LaTeX Warning: Reference `anyone2' on page 60 undefined on input line 429.
+
+
+LaTeX Warning: Reference `anyone1' on page 60 undefined on input line 431.
+
+
+LaTeX Warning: Reference `anyone2' on page 60 undefined on input line 431.
+
+[60]
+
+LaTeX Warning: Reference `surgeon1' on page 61 undefined on input line 451.
+
+[61]
+
+LaTeX Warning: Reference `surgeon1' on page 62 undefined on input line 497.
+
+[62]
+
+LaTeX Warning: Reference `dog1' on page 63 undefined on input line 521.
+
+
+LaTeX Warning: Reference `dog2' on page 63 undefined on input line 523.
+
+
+LaTeX Warning: Reference `dog3' on page 63 undefined on input line 525.
+
+
+LaTeX Warning: Reference `dog2' on page 63 undefined on input line 525.
+
+
+LaTeX Warning: Reference `dog3' on page 63 undefined on input line 525.
+
+
+LaTeX Warning: Reference `dog4' on page 63 undefined on input line 528.
+
+
+LaTeX Warning: Reference `dog2' on page 63 undefined on input line 528.
+
+
+LaTeX Warning: Reference `dog4' on page 63 undefined on input line 528.
+
+
+LaTeX Warning: Reference `dog5' on page 63 undefined on input line 530.
+
+
+LaTeX Warning: Reference `dog5' on page 63 undefined on input line 530.
+
+
+LaTeX Warning: Reference `likes1' on page 63 undefined on input line 544.
+
+
+LaTeX Warning: Reference `likes2' on page 63 undefined on input line 547.
+
+[63]
+
+LaTeX Warning: Reference `likes1' on page 64 undefined on input line 549.
+
+
+LaTeX Warning: Reference `likes2' on page 64 undefined on input line 549.
+
+[64] [65]
+
+LaTeX Warning: Reference `SLconventions' on page 66 undefined on input line 655
+.
+
+[66]
+
+LaTeX Warning: Reference `else1' on page 67 undefined on input line 664.
+
+
+LaTeX Warning: Reference `else1' on page 67 undefined on input line 664.
+
+
+LaTeX Warning: Reference `else2' on page 67 undefined on input line 676.
+
+
+LaTeX Warning: Reference `else1' on page 67 undefined on input line 678.
+
+[67]
+
+LaTeX Warning: Reference `else3' on page 68 undefined on input line 689.
+
+
+LaTeX Warning: Reference `else4' on page 68 undefined on input line 691.
+
+
+LaTeX Warning: Reference `else4' on page 68 undefined on input line 691.
+
+
+LaTeX Warning: Reference `atleast1' on page 68 undefined on input line 703.
+
+
+LaTeX Warning: Reference `atleast2' on page 68 undefined on input line 705.
+
+
+LaTeX Warning: Reference `atleast2' on page 68 undefined on input line 705.
+
+
+LaTeX Warning: Reference `atleast3' on page 68 undefined on input line 707.
+
+
+LaTeX Warning: Reference `summary.atleast' on page 68 undefined on input line 7
+09.
+
+
+LaTeX Warning: Reference `atmost1' on page 68 undefined on input line 718.
+
+
+LaTeX Warning: Reference `atleast2' on page 68 undefined on input line 718.
+
+
+LaTeX Warning: Reference `atmost1' on page 68 undefined on input line 719.
+
+[68]
+
+LaTeX Warning: Reference `atmost2' on page 69 undefined on input line 721.
+
+
+LaTeX Warning: Reference `atleast3' on page 69 undefined on input line 721.
+
+
+LaTeX Warning: Reference `summary.atmost' on page 69 undefined on input line 72
+4.
+
+
+LaTeX Warning: Reference `exactly1' on page 69 undefined on input line 732.
+
+
+LaTeX Warning: Reference `atleast1' on page 69 undefined on input line 732.
+
+
+LaTeX Warning: Reference `atmost1' on page 69 undefined on input line 732.
+
+
+LaTeX Warning: Reference `exactly1' on page 69 undefined on input line 732.
+
+
+LaTeX Warning: Reference `exactly2' on page 69 undefined on input line 734.
+
+
+LaTeX Warning: Reference `atmost2inUD' on page 69 undefined on input line 740.
+
+
+LaTeX Warning: Reference `atmost2' on page 69 undefined on input line 740.
+
+
+LaTeX Warning: Reference `atmost2inUD' on page 69 undefined on input line 740.
+
+
+LaTeX Warning: Reference `summary.atleast' on page 69 undefined on input line 7
+42.
+
+[69]
+
+LaTeX Warning: Reference `defdesc1' on page 70 undefined on input line 757.
+
+
+LaTeX Warning: Reference `defdesc1' on page 70 undefined on input line 761.
+
+
+LaTeX Warning: Reference `defdesc1' on page 70 undefined on input line 763.
+
+
+Underfull \vbox (badness 2237) has occurred while \output is active []
+
+ [70]
+
+LaTeX Warning: Reference `defdesc2' on page 71 undefined on input line 771.
+
+
+LaTeX Warning: Reference `defdesc2' on page 71 undefined on input line 772.
+
+
+LaTeX Warning: Reference `defdesc1' on page 71 undefined on input line 774.
+
+
+LaTeX Warning: Reference `defdesc2' on page 71 undefined on input line 776.
+
+
+LaTeX Warning: Reference `defdesc1' on page 71 undefined on input line 776.
+
+
+LaTeX Warning: Reference `defdesc2' on page 71 undefined on input line 776.
+
+
+LaTeX Warning: Reference `defdesc2' on page 71 undefined on input line 778.
+
+
+LaTeX Warning: Reference `defdesc1' on page 71 undefined on input line 778.
+
+
+LaTeX Warning: Reference `defdesc2' on page 71 undefined on input line 780.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.1}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.808 \problempart
+                   [71]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.842 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.882 \problempart
+                   Using the symbolization key given, translate each English...
+[72]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.4}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.912 \problempart
+                   [73]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.5}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.925 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.6}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.951 \problempart
+                   [74]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.7}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.978 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.8}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1007 \problempart
+                    [75] [76]) [77]
+\openout2 = `forallx-ch5-semantics.aux'.
+
+ (forallx-ch5-semantics.tex
+Chapter 5.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78
+
+
+
+
+]
+[79] [80] [81] [82] [83]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+03.
+
+(C:\Users\nihal\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 203.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+[85] [86]
+Overfull \hbox (6.27397pt too wide) in paragraph at lines 258--267
+[]\OT1/cmr/m/n/10 , [], [], [], [], [], [], [], [],
+ []
+
+
+Overfull \hbox (6.27397pt too wide) in paragraph at lines 258--267
+[]\OT1/cmr/m/n/10 , [], [], [], [], [], [], [], [],
+ []
+
+
+Overfull \hbox (6.27397pt too wide) in paragraph at lines 258--267
+[]\OT1/cmr/m/n/10 , [], [], [], [], [], [], [], [],
+ []
+
+[87] [88] [89]
+
+LaTeX Warning: Reference `surgeon3correct' on page 90 undefined on input line 3
+83.
+
+[90]
+Overfull \hbox (8.73419pt too wide) in paragraph at lines 410--411
+[]\OT1/cmr/m/n/10 There are two kinds of mod-els: those in which $[][](\OML/cmm
+/m/it/10 a\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (\OML/cmm/m/it/
+10 a\OT1/cmr/m/n/10 )[]$
+ []
+
+[91]
+
+LaTeX Warning: Reference `table.ModelOrArgument' on page 92 undefined on input 
+line 418.
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 432--432
+[]\OT1/cmr/m/it/10 construct a model \OT1/cmr/m/n/10 in
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 435--435
+[]\OT1/cmr/m/it/10 construct a model \OT1/cmr/m/n/10 in
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 441--441
+\OT1/cmr/m/n/10 must have the same
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 441--441
+\OT1/cmr/m/n/10 truth value in any
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 441--441
+[]\OT1/cmr/m/it/10 construct a model \OT1/cmr/m/n/10 in
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 444--444
+[]\OT1/cmr/m/it/10 construct a model \OT1/cmr/m/n/10 in
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 444--445
+[]\OT1/cmr/m/n/10 show that the sen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]\OT1/cmr/m/n/10 Is the ar-gu-ment
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 447--447
+[]\OT1/cmr/m/it/10 construct a model \OT1/cmr/m/n/10 in
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 428--449
+[][][]
+ []
+
+[92] [93] [94]
+Overfull \hbox (7.7391pt too wide) detected at line 556
+\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 (\OT1/pzc/m/it/10 A\OML/cmm/m/it/10 ; a\OT1/c
+mr/m/n/10 ) = []
+ []
+
+[95]
+
+LaTeX Warning: Reference `sec.UsingModels' on page 96 undefined on input line 5
+75.
+
+
+LaTeX Warning: Reference `allmodels1' on page 96 undefined on input line 582.
+
+[96]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.1}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.615 \problempart
+                   [97]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.639 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.662 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.4}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.692 \problempart
+                   [98]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.5}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.705 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.6}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.718 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.7}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.735 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.8}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.751 \problempart
+                   [99]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.9}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.768 \problempart
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.10})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.794 \problempart
+                  
+
+LaTeX Warning: Reference `def.consistencySL' on page 100 undefined on input lin
+e 800.
+
+) [100]
+\openout2 = `forallx-ch6-proofs.aux'.
+
+ (forallx-ch6-proofs.tex
+Chapter 6.
+[101
+
+
+
+
+] [102]
+
+LaTeX Warning: Reference `ProofRules' on page 103 undefined on input line 60.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
+[104] [105]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107]
+[108] [109]
+Overfull \hbox (3.9402pt too wide) in paragraph at lines 355--356
+[]\OT1/cmr/m/n/10 To see how the rule works, sup-pose we want to prove the law 
+of non-contradiction:
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+[111]
+
+LaTeX Warning: Reference `HSproof' on page 112 undefined on input line 429.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112]
+[113] [114] [115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+[117]
+Underfull \vbox (badness 7613) has occurred while \output is active []
+
+ [118]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+ [119]
+
+LaTeX Warning: Reference `model.nonidentity' on page 120 undefined on input lin
+e 752.
+
+
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+ [120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121]
+
+LaTeX Warning: Reference `ch.semantics' on page 122 undefined on input line 877
+.
+
+
+Underfull \vbox (badness 5161) has occurred while \output is active []
+
+ [122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123]
+
+LaTeX Warning: Reference `table.ProofOrModel' on page 124 undefined on input li
+ne 917.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 938--938
+[]\OT1/cmr/m/n/10 prove [] and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 944--944
+[]\OT1/cmr/m/n/10 Is the ar-gu-ment
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 923--946
+[][][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1895) has occurred while \output is active []
+
+ [124]
+Underfull \vbox (badness 4832) has occurred while \output is active []
+
+ [125]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.1}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.995 \problempart
+                  
+Underfull \vbox (badness 7326) has occurred while \output is active []
+
+ [126]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1043 \problempart
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1055 \problempart
+                    [127]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.4}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1070 \problempart
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.5}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1080 \problempart
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.6}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1090 \problempart
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.7}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1101 \problempart
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.8}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1113 \problempart
+                    [128]
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.9}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1125 \problempart
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.10})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1194 \problempart
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{ProbPart.11})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1205 \problempart
+                   
+
+LaTeX Warning: Reference `surgeon2' on page 129 undefined on input line 1206.
+
+
+LaTeX Warning: Reference `pr.BarbaraEtc' on page 129 undefined on input line 12
+12.
+
+
+LaTeX Warning: Reference `pr.BarbaraEtc' on page 129 undefined on input line 12
+12.
+
+[129] [130]
+
+LaTeX Warning: Reference `pr.QLarguments' on page 131 undefined on input line 1
+301.
+
+
+LaTeX Warning: Reference `pr.QLarguments' on page 131 undefined on input line 1
+301.
+
+) [131]
+\openout2 = `forallx-app-notation.aux'.
+
+ (forallx-app-notation.tex
+Appendix A.
+[132
+
+
+
+
+] [133]) [134]
+\openout2 = `forallx-app-solutions.aux'.
+
+ (forallx-app-solutions.tex
+Appendix B.
+
+Overfull \hbox (15.19121pt too wide) in paragraph at lines 2--2
+|\OT1/cmr/bx/n/24.88 Solutions to se-lected ex-er-cises| 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 7.
+
+
+LaTeX Warning: Reference `ch.intro' on page 135 undefined on input line 7.
+
+
+LaTeX Warning: Reference `pr.MartianGiraffes' on page 135 undefined on input li
+ne 7.
+
+
+LaTeX Warning: Reference `ch.intro' on page 135 undefined on input line 20.
+
+
+LaTeX Warning: Reference `pr.EnglishCombinations' on page 135 undefined on inpu
+t line 20.
+
+
+LaTeX Warning: Reference `ch.SL' on page 135 undefined on input line 56.
+
+
+LaTeX Warning: Reference `pr.monkeysuits' on page 135 undefined on input line 5
+6.
+
+
+LaTeX Warning: Reference `ch.SL' on page 135 undefined on input line 67.
+
+
+LaTeX Warning: Reference `pr.avacareer' on page 135 undefined on input line 67.
+
+
+[135
+
+
+
+
+]
+
+LaTeX Warning: Reference `ch.SL' on page 136 undefined on input line 83.
+
+
+LaTeX Warning: Reference `pr.spies' on page 136 undefined on input line 83.
+
+
+LaTeX Warning: Reference `ch.SL' on page 136 undefined on input line 106.
+
+
+LaTeX Warning: Reference `pr.wiffSL' on page 136 undefined on input line 106.
+
+
+LaTeX Warning: Reference `ch.TruthTables' on page 136 undefined on input line 1
+31.
+
+
+LaTeX Warning: Reference `pr.TT.TTorC' on page 136 undefined on input line 131.
+
+
+[136]
+
+LaTeX Warning: Reference `ch.TruthTables' on page 137 undefined on input line 1
+53.
+
+
+LaTeX Warning: Reference `pr.TT.equiv' on page 137 undefined on input line 153.
+
+
+
+LaTeX Warning: Reference `ch.TruthTables' on page 137 undefined on input line 1
+78.
+
+
+LaTeX Warning: Reference `pr.TT.consistent' on page 137 undefined on input line
+ 178.
+
+
+LaTeX Warning: Reference `ch.TruthTables' on page 137 undefined on input line 1
+97.
+
+
+LaTeX Warning: Reference `pr.TT.valid' on page 137 undefined on input line 197.
+
+
+
+LaTeX Warning: Reference `ch.TruthTables' on page 137 undefined on input line 2
+21.
+
+
+LaTeX Warning: Reference `pr.TT.concepts' on page 137 undefined on input line 2
+21.
+
+
+LaTeX Warning: Reference `ch.TruthTables' on page 137 undefined on input line 2
+40.
+
+
+LaTeX Warning: Reference `pr.altConnectives' on page 137 undefined on input lin
+e 240.
+
+
+LaTeX Warning: Reference `ch.QL' on page 137 undefined on input line 258.
+
+
+LaTeX Warning: Reference `pr.QLalligators' on page 137 undefined on input line 
+258.
+
+
+LaTeX Warning: Reference `ch.TruthTables' on page 137 undefined on input line 2
+75.
+
+[137]
+
+LaTeX Warning: Reference `ch.QL' on page 138 undefined on input line 293.
+
+
+LaTeX Warning: Reference `pr.QLcandies' on page 138 undefined on input line 293
+.
+
+
+LaTeX Warning: Reference `ch.QL' on page 138 undefined on input line 318.
+
+
+LaTeX Warning: Reference `pr.QLballet' on page 138 undefined on input line 318.
+
+
+
+LaTeX Warning: Reference `ch.QL' on page 138 undefined on input line 346.
+
+
+LaTeX Warning: Reference `pr.QLcards' on page 138 undefined on input line 346.
+
+[138]
+
+LaTeX Warning: Reference `ch.semantics' on page 139 undefined on input line 380
+.
+
+
+LaTeX Warning: Reference `pr.TorF1' on page 139 undefined on input line 380.
+
+
+LaTeX Warning: Reference `ch.semantics' on page 139 undefined on input line 401
+.
+
+
+LaTeX Warning: Reference `pr.TorF2' on page 139 undefined on input line 401.
+
+
+LaTeX Warning: Reference `ch.semantics' on page 139 undefined on input line 414
+.
+
+
+LaTeX Warning: Reference `pr.InterpretationToModel' on page 139 undefined on in
+put line 414.
+
+
+LaTeX Warning: Reference `ch.semantics' on page 139 undefined on input line 426
+.
+
+
+LaTeX Warning: Reference `pr.Contingent' on page 139 undefined on input line 42
+6.
+
+
+LaTeX Warning: Reference `ch.semantics' on page 139 undefined on input line 458
+.
+
+[139]
+
+LaTeX Warning: Reference `ch.semantics' on page 140 undefined on input line 473
+.
+
+
+LaTeX Warning: Reference `pr.NotEquiv' on page 140 undefined on input line 473.
+
+
+[140]
+
+LaTeX Warning: Reference `ch.semantics' on page 141 undefined on input line 540
+.
+
+
+LaTeX Warning: Reference `pr.IdentityModels' on page 141 undefined on input lin
+e 540.
+
+
+LaTeX Warning: Reference `ch.semantics' on page 141 undefined on input line 556
+.
+
+
+LaTeX Warning: Reference `pr.SemanticsEssay' on page 141 undefined on input lin
+e 556.
+
+
+LaTeX Warning: Reference `ch.proofs' on page 141 undefined on input line 563.
+
+
+LaTeX Warning: Reference `pr.justifySLproof' on page 141 undefined on input lin
+e 563.
+
+
+Overfull \hbox (3.0403pt too wide) in paragraph at lines 588--606
+[]$[]$ 
+ []
+
+
+LaTeX Warning: Reference `ch.semantics' on page 141 undefined on input line 607
+.
+
+[141]
+
+LaTeX Warning: Reference `ch.proofs' on page 142 undefined on input line 609.
+
+
+LaTeX Warning: Reference `pr.solvedSLproofs' on page 142 undefined on input lin
+e 609.
+
+
+Underfull \vbox (badness 4492) has occurred while \output is active []
+
+ [142]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `ch.proofs' on page 143 undefined on input line 705.
+
+[143]
+
+LaTeX Warning: Reference `ch.proofs' on page 144 undefined on input line 708.
+
+
+LaTeX Warning: Reference `pr.subinstanceQL' on page 144 undefined on input line
+ 708.
+
+
+Overfull \hbox (2.23665pt too wide) in paragraph at lines 711--712
+[]\OT1/cmr/m/n/10 Of the ex-pres-sions listed, only $\OMS/cmsy/m/n/10 8\OML/cmm
+/m/it/10 yLby$ \OT1/cmr/m/n/10 is a sub-sti-tu-tion in-stance of $\OMS/cmsy/m/n
+/10 9\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 yLxy$\OT1/cmr/m/n/10 
+. 
+ []
+
+
+LaTeX Warning: Reference `ch.proofs' on page 144 undefined on input line 715.
+
+
+LaTeX Warning: Reference `pr.justifyQLproof' on page 144 undefined on input lin
+e 715.
+
+
+Overfull \hbox (9.0044pt too wide) in paragraph at lines 719--730
+[]$[]$ 
+ []
+
+
+Overfull \hbox (21.63866pt too wide) in paragraph at lines 733--745
+[]$[]$ 
+ []
+
+
+Overfull \hbox (20.62206pt too wide) in paragraph at lines 748--762
+[]$[]$ 
+ []
+
+
+Overfull \vbox (32.53297pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (32.53297pt too high) has occurred while \output is active []
+
+
+[144]
+Overfull \hbox (25.08037pt too wide) in paragraph at lines 766--775
+[]$[]$ 
+ []
+
+
+LaTeX Warning: Reference `ch.proofs' on page 145 undefined on input line 779.
+
+
+LaTeX Warning: Reference `pr.someQLproofs' on page 145 undefined on input line 
+779.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `ch.proofs' on page 145 undefined on input line 820.
+
+[145]
+
+LaTeX Warning: Reference `ch.proofs' on page 146 undefined on input line 853.
+
+
+LaTeX Warning: Reference `pr.likes' on page 146 undefined on input line 853.
+
+
+LaTeX Warning: Reference `likes2' on page 146 undefined on input line 854.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [146]
+
+LaTeX Warning: Reference `ch.proofs' on page 147 undefined on input line 880.
+
+
+LaTeX Warning: Reference `pr.QLequivornot' on page 147 undefined on input line 
+880.
+
+
+LaTeX Warning: Reference `ch.proofs' on page 147 undefined on input line 895.
+
+
+LaTeX Warning: Reference `pr.QLvalidornot' on page 147 undefined on input line 
+895.
+
+)
+
+LaTeX Warning: Reference `ch.proofs' on page 147 undefined on input line 23.
+
+[147]
+\openout2 = `forallx-app-quickreference.aux'.
+
+ (forallx-app-quickreference.tex
+
+LaTeX Warning: Reference `ch.SL' on page 148 undefined on input line 55.
+
+
+LaTeX Warning: Reference `ch.QL' on page 148 undefined on input line 65.
+
+
+LaTeX Warning: Reference `sec.identity' on page 148 undefined on input line 71.
+
+
+
+Overfull \hbox (6.22044pt too wide) in alignment at lines 54--79
+[][]
+ []
+
+[148
+
+
+
+] [149]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [150
+
+])
+[151]
+\openout2 = `forallx-backmatter.aux'.
+
+ (forallx-backmatter.tex) [152
+
+
+
+
+] (forallx.aux (forallx-frontmatter.aux)
+(forallx-ch1-intro.aux) (forallx-ch2-sentential.aux)
+(forallx-ch3-truthtables.aux) (forallx-ch4-predicate.aux)
+(forallx-ch5-semantics.aux) (forallx-ch6-proofs.aux) (forallx-app-notation.aux)
+(forallx-app-solutions.aux) (forallx-app-quickreference.aux)
+(forallx-backmatter.aux))
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `forallx.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `forallx.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  FBB28D2D02B085977D7F8C6D48BE0E4E;7245.
+ ) 
+Here is how much of TeX's memory you used:
+ 10778 strings out of 475248
+ 163542 string characters out of 5757813
+ 1957785 words of memory out of 5000000
+ 31267 multiletter control sequences out of 15000+600000
+ 579725 words of font info for 106 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,13n,93p,1267b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\nihal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+0700.pk> <C:\Users\nihal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1000.pk><C:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/nihal/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nihal/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nihal/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/
+nihal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C
+:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsl10.pfb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/nihal/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nihal/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nihal/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nihal
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Us
+ers/nihal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.p
+fb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmtt8.pfb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/symbols/msam10.pfb><C:/Users/nihal/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb><C:/Users/nihal/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on forallx.pdf (152 pages, 784352 bytes).
+PDF statistics:
+ 1677 PDF objects out of 1728 (max. 8388607)
+ 886 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

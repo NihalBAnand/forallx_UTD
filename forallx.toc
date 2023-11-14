@@ -1,0 +1,118 @@
+\contentsline {chapter}{\numberline {1}What is logic?}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Arguments}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Sentences}{5}{section.1.2}%
+\contentsline {paragraph}{Questions}{5}{section.1.2}%
+\contentsline {paragraph}{Imperatives}{6}{section.1.2}%
+\contentsline {paragraph}{Exclamations}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Two ways that arguments can go wrong}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Deductive validity}{7}{section.1.4}%
+\contentsline {subsection}{Inductive arguments}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Other logical notions}{9}{section.1.5}%
+\contentsline {subsection}{Truth-values}{9}{section.1.5}%
+\contentsline {subsection}{Logical truth}{9}{section.1.5}%
+\contentsline {subsection}{Logical equivalence}{10}{Item.3}%
+\contentsline {subsection}{Consistency}{10}{Item.3}%
+\contentsline {section}{\numberline {1.6}Formal languages}{11}{section.1.6}%
+\contentsline {section}{Practice Exercises}{13}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Sentential logic}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Sentence letters}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Connectives}{17}{section.2.2}%
+\contentsline {subsection}{Negation}{17}{section.2.2}%
+\contentsline {subsection}{Conjunction}{19}{Item.41}%
+\contentsline {subsection}{Disjunction}{21}{Item.48}%
+\contentsline {subsection}{Conditional}{23}{Item.53}%
+\contentsline {subsection}{Biconditional}{24}{Item.56}%
+\contentsline {section}{\numberline {2.3}Other symbolization}{25}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Sentences of SL}{26}{section.2.4}%
+\contentsline {subsection}{Expressions}{27}{section.2.4}%
+\contentsline {subsection}{Well-formed formulae}{27}{section.2.4}%
+\contentsline {subsection}{Sentences}{28}{Item.68}%
+\contentsline {subsection}{Notational conventions}{29}{Item.68}%
+\contentsline {section}{Practice Exercises}{30}{Item.68}%
+\contentsline {chapter}{\numberline {3}Truth tables}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Truth-functional connectives}{34}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Complete truth tables}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Using truth tables}{38}{section.3.3}%
+\contentsline {subsection}{Tautologies, contradictions, and contingent sentences}{38}{section.3.3}%
+\contentsline {subsection}{Logical equivalence}{38}{section.3.3}%
+\contentsline {subsection}{Consistency}{39}{section.3.3}%
+\contentsline {subsection}{Validity}{39}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Partial truth tables}{39}{section.3.4}%
+\contentsline {section}{Practice Exercises}{41}{table.3.2}%
+\contentsline {chapter}{\numberline {4}Quantified logic}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}From sentences to predicates}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Building blocks of QL}{47}{section.4.2}%
+\contentsline {subsection}{Singular Terms}{47}{section.4.2}%
+\contentsline {subsection}{Predicates}{49}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Quantifiers}{51}{section.4.3}%
+\contentsline {subsection}{Universe of Discourse}{52}{Item.199}%
+\contentsline {subsection}{Non-referring terms}{53}{Item.199}%
+\contentsline {section}{\numberline {4.4}Translating to QL}{54}{section.4.4}%
+\contentsline {subsection}{Empty predicates}{56}{Item.205}%
+\contentsline {subsection}{Picking a Universe of Discourse}{57}{Item.207}%
+\contentsline {subsection}{Translating pronouns}{59}{Item.210}%
+\contentsline {subsection}{Quantifiers and scope}{60}{Item.214}%
+\contentsline {subsection}{Ambiguous predicates}{61}{Item.214}%
+\contentsline {subsection}{Multiple quantifiers}{62}{Item.215}%
+\contentsline {section}{\numberline {4.5}Sentences of QL}{64}{section.4.5}%
+\contentsline {subsection}{Expressions}{64}{section.4.5}%
+\contentsline {subsection}{Well-formed formulae}{65}{section.4.5}%
+\contentsline {subsection}{Sentences}{66}{Item.231}%
+\contentsline {subsection}{Notational conventions}{66}{Item.231}%
+\contentsline {section}{\numberline {4.6}Identity}{67}{section.4.6}%
+\contentsline {subsection}{Expressions of quantity}{68}{Item.235}%
+\contentsline {subsection}{Definite descriptions}{70}{Item.243}%
+\contentsline {section}{Practice Exercises}{71}{Item.245}%
+\contentsline {chapter}{\numberline {5}Formal semantics}{78}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Semantics for SL}{79}{section.5.1}%
+\contentsline {subsection}{Truth in SL}{80}{section.5.1}%
+\contentsline {subsection}{Other concepts in SL}{82}{Item.354}%
+\contentsline {section}{\numberline {5.2}Interpretations and models in QL}{83}{section.5.2}%
+\contentsline {subsection}{Sets}{85}{section.5.2}%
+\contentsline {subsection}{Models}{85}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Semantics for identity}{87}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Working with models}{88}{section.5.4}%
+\contentsline {subsection}{Constructing models}{89}{section.5.4}%
+\contentsline {subsection}{Reasoning about all models}{91}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Truth in QL}{93}{section.5.5}%
+\contentsline {subsection}{Satisfaction}{93}{section.5.5}%
+\contentsline {subsection}{Truth}{95}{Item.362}%
+\contentsline {subsection}{Reasoning about all models (reprise)}{96}{Item.362}%
+\contentsline {section}{Practice Exercises}{97}{Item.362}%
+\contentsline {chapter}{\numberline {6}Proofs}{101}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Basic rules for SL}{102}{section.6.1}%
+\contentsline {subsection}{Conjunction}{103}{section.6.1}%
+\contentsline {subsection}{Disjunction}{105}{section.6.1}%
+\contentsline {subsection}{Conditional}{105}{section.6.1}%
+\contentsline {subsection}{Biconditional}{109}{section.6.1}%
+\contentsline {subsection}{Negation}{109}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Derived rules}{111}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Rules of replacement}{112}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Rules for quantifiers}{114}{section.6.4}%
+\contentsline {subsection}{Substitution instances}{114}{section.6.4}%
+\contentsline {subsection}{Universal elimination}{115}{section.6.4}%
+\contentsline {subsection}{Existential introduction}{115}{section.6.4}%
+\contentsline {subsection}{Universal introduction}{116}{section.6.4}%
+\contentsline {subsection}{Existential elimination}{117}{section.6.4}%
+\contentsline {subsection}{Quantifier negation}{119}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Rules for identity}{120}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Proof strategy}{121}{section.6.6}%
+\contentsline {paragraph}{Work backwards from what you want.}{121}{section.6.6}%
+\contentsline {paragraph}{Work forwards from what you have.}{122}{section.6.6}%
+\contentsline {paragraph}{Change what you are looking at.}{122}{section.6.6}%
+\contentsline {paragraph}{Do not forget indirect proof.}{122}{section.6.6}%
+\contentsline {paragraph}{Repeat as necessary.}{122}{section.6.6}%
+\contentsline {paragraph}{Persist.}{122}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Proof-theoretic concepts}{123}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Proofs and models}{124}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Soundness and completeness}{125}{section.6.9}%
+\contentsline {section}{Practice Exercises}{127}{section.6.9}%
+\contentsline {chapter}{\numberline {A}Other symbolic notation}{132}{appendix.A}%
+\contentsline {paragraph}{Negation}{132}{appendix.A}%
+\contentsline {paragraph}{Disjunction}{132}{appendix.A}%
+\contentsline {paragraph}{Conjunction}{132}{appendix.A}%
+\contentsline {paragraph}{Material Conditional}{133}{appendix.A}%
+\contentsline {paragraph}{Material Biconditional}{133}{appendix.A}%
+\contentsline {paragraph}{Quantifiers}{133}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Solutions to selected exercises}{135}{appendix.B}%
+\contentsline {chapter}{C\ Quick Reference}{148}{Item.664}%
