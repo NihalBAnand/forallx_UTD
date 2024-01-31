@@ -253,6 +253,149 @@ $\enot [(A\eif B) \eif \enot(B\eif A)]$
 %$\enot(\enot A \eor \enot B) \eor \enot(A \eor B)$
 \end{earg}
 
+\solutionsection{ch.slproofs}{pr.justifySLproof}
+
+\begin{multicols}{2}
+\begin{proof}
+\hypo{1}{W \eif \enot B}
+\hypo{2}{A \eand W}
+\hypo{2b}{B \eor (J \eand K)}
+\have{3}{W}\ae{2}
+\have{4}{\enot B} \ce{1,3}
+\have{5}{J \eand K} \oe{2b,4}
+\have{6}{K} \ae{5}
+\end{proof}
+
+\begin{proof}
+\hypo{1}{L \eiff \enot O}
+\hypo{2}{L \eor \enot O}
+\open
+	\hypo{a1}{\enot L}
+	\have{a2}{\enot O}\oe{2,a1}
+	\have{a3}{L}\be{1,a2}
+	\have{a4}{\enot L}\by{R}{a1}
+\close
+\have{3}{L}\ne{a1-a4}
+\end{proof}
+
+\begin{proof}
+\hypo{1}{Z \eif (C \eand \enot N)}
+\hypo{2}{\enot Z \eif (N \eand \enot C)}
+\open
+	\hypo{a1}{\enot(N \eor  C)}
+	\have{a2}{\enot N \eand \enot C} \by{DeM}{a1}
+	\open
+		\hypo{b1}{Z} 
+		\have{b2}{C \eand \enot N}\ce{1,b1}
+		\have{b3}{C}\ae{b2}
+		\have{b4}{\enot C}\ae{a2}
+	\close
+	\have{a3}{\enot Z}\ni{b1-b4}
+	\have{a4}{N \eand \enot C}\ce{2,a3}
+	\have{a5}{N}\ae{a4}
+	\have{a6}{\enot N}\ae{a2}
+\close
+\have{3}{N \eor C}\ne{a1-a6}
+\end{proof}
+\end{multicols}
+
+\solutionsection{ch.slproofs}{pr.solvedSLproofs}
+%Give a proof for each argument in SL.
+\begin{earg}
+\item%$K\eand L$, \therefore $K\eiff L$
+\begin{solutioninlist}
+\begin{proof}
+	\hypo{a1}{K\eand L} \want{K\eiff L}
+	\open
+		\hypo{b1}{K} \want{L}
+		\have{b2}{L} \ae{a1}
+	\close
+	\open
+		\hypo{c1}{L} \want{K}
+		\have{c2}{K} \ae{a1}
+	\close
+	\have{d1}{K \eiff L} \bi{b1-b2,c1-c2}
+\end{proof}
+\end{solutioninlist}
+\item%$A\eif (B\eif C)$, \therefore $(A\eand B)\eif C$
+\begin{solutioninlist}
+\begin{proof}
+	\hypo{a1}{A\eif (B\eif C)} \want{(A\eand B)\eif C}
+	\open
+		\hypo{b1}{A\eand B} \want{C}
+		\have{b2}{A} \ae{b1}
+		\have{b3}{B\eif C} \ce{a1,b2}
+		\have{b4}{B} \ae{b1}
+		\have{b5}{C} \ce{b3, b4}
+	\close
+	\have{c}{(A\eand B)\eif C} \ci{b1-b5}
+\end{proof}
+\end{solutioninlist}
+\item%$P \eand (Q\eor R)$, $P\eif \enot R$, \therefore $Q\eor E$
+\begin{solutioninlist}
+\begin{proof}
+	\hypo{a1}{P \eand (Q\eor R)}
+	\hypo{a2}{P\eif \enot R} \want{Q\eor E}
+	\have{a3}{P} \andE{a1}
+	\have{a4}{\enot R} \ifE{a2,a3}
+	\have{a5}{Q\eor R} \andE{a1}
+	\have{a6}{Q} \orE{a5,a4}
+	\have{c}{Q\eor E} \orI{a6}
+\end{proof}
+\end{solutioninlist}
+\item%$(C\eand D)\eor E$, \therefore $E\eor D$
+\begin{solutioninlist}
+\begin{proof}
+	\hypo{a1}{(C\eand D)\eor E} \want{E\eor D}
+	\open
+		\hypo{b1}{\enot E} \want{D}
+		\have{b2}{C\eand D} \oe{a1,b1}
+		\have{b3}{D} \ae{b2}
+	\close
+	\have{c1}{\enot E\eif D} \ci{b1-b3}
+	\have{c2}{E\eor D} \by{MC}{c1}
+\end{proof}
+\end{solutioninlist}
+\item%$\enot F\eif G$, $F\eif H$, \therefore $G\eor H$
+\begin{solutioninlist}
+\begin{proof}
+	\hypo{a1}{\enot F\eif G}
+	\hypo{a2}{F\eif H} \want{G\eor H}
+	\open
+		\hypo{b1}{\enot G} \want{H}
+		\have{b2}{\enot\enot F} \by{MT}{a1,b1}
+		\have{b3}{F} \by{DN}{b2}
+		\have{b4}{H} \ce{a2,b3}
+	\close
+	\have{c1}{\enot G \eif H} \ci{b1-b4}
+	\have{c2}{G\eor H} \by{MC}{c1}
+\end{proof}
+\end{solutioninlist}
+\item%$(X\eand Y)\eor(X\eand Z)$, $\enot(X\eand D)$, $D\eor M$ \therefore $M$
+\begin{solutioninlist}
+\begin{proof}
+	\hypo{a1}{(X\eand Y)\eor(X\eand Z)}
+	\hypo{a2}{\enot(X\eand D)}
+	\hypo{a3}{D\eor M} \want{M}
+	\open
+		\hypo{b1}{\enot X} \by{for reductio}{}
+		\have{b2}{\enot X\eor \enot Y} \oi{b1}
+		\have{b3}{\enot (X \eand Y)} \by{DeM}{b2}
+		\have{b4}{X\eand Z} \oe{a1,b3}
+		\have{b5}{X} \ae{b4}
+		\have{b6}{\enot X} \by{R}{b1}
+	\close
+	\have{c}{X} \ne{b1-b6}
+	\open
+		\hypo{d1}{\enot M} \by{for reductio}{}
+		\have{d2}{D} \oe{a3,d1}
+		\have{d3}{X\eand D} \ai{c,d2}
+		\have{d4}{\enot(X\eand D)} \by{R}{a2}
+	\close
+	\have{e}{M} \ne{d1-d4}
+\end{proof}
+\end{solutioninlist}
+\end{earg}
 
 
 \solutionsection{ch.QL}{pr.QLalligators}
@@ -553,166 +696,14 @@ Any UD with 2 members will do.
 We need to show that it is impossible to construct a model in which these are both true. Suppose $\exists x\ x \neq a$ is true in a model. There is something in the universe of discourse that is \emph{not} the referent of $a$. So there are at least two things in the universe of discourse: \referent{a} and this other thing. Call this other thing $\beta$--- we know $a \neq \beta$. But if $a \neq \beta$, then $\forall x\forall y\ x=y$ is false. So the first sentence must be false if the second sentence is true. As such, there is no model in which they are both true. Therefore, they are inconsistent.
 \end{earg}
 
-\solutionsection{ch.semantics}{pr.SemanticsEssay}
-\begin{earg}
-\stepcounter{eargnum}
-\item No, it would not make any difference. The satisfaction of a formula with one or more free variables depends on what the variable assignment does for those variables. Because a sentence has no free variables, however, its satisfaction does not depend on the variable assignment. So a sentence that is satisfied by \emph{some} variable assignment is satisfied by \emph{every} other variable assignment as well.
-\end{earg}
-
-
-\solutionsection{ch.proofs}{pr.justifySLproof}
-
-\begin{multicols}{2}
-\begin{proof}
-\hypo{1}{W \eif \enot B}
-\hypo{2}{A \eand W}
-\hypo{2b}{B \eor (J \eand K)}
-\have{3}{W}\ae{2}
-\have{4}{\enot B} \ce{1,3}
-\have{5}{J \eand K} \oe{2b,4}
-\have{6}{K} \ae{5}
-\end{proof}
-
-\begin{proof}
-\hypo{1}{L \eiff \enot O}
-\hypo{2}{L \eor \enot O}
-\open
-	\hypo{a1}{\enot L}
-	\have{a2}{\enot O}\oe{2,a1}
-	\have{a3}{L}\be{1,a2}
-	\have{a4}{\enot L}\by{R}{a1}
-\close
-\have{3}{L}\ne{a1-a4}
-\end{proof}
-
-\begin{proof}
-\hypo{1}{Z \eif (C \eand \enot N)}
-\hypo{2}{\enot Z \eif (N \eand \enot C)}
-\open
-	\hypo{a1}{\enot(N \eor  C)}
-	\have{a2}{\enot N \eand \enot C} \by{DeM}{a1}
-	\open
-		\hypo{b1}{Z} 
-		\have{b2}{C \eand \enot N}\ce{1,b1}
-		\have{b3}{C}\ae{b2}
-		\have{b4}{\enot C}\ae{a2}
-	\close
-	\have{a3}{\enot Z}\ni{b1-b4}
-	\have{a4}{N \eand \enot C}\ce{2,a3}
-	\have{a5}{N}\ae{a4}
-	\have{a6}{\enot N}\ae{a2}
-\close
-\have{3}{N \eor C}\ne{a1-a6}
-\end{proof}
-\end{multicols}
-
-\solutionsection{ch.proofs}{pr.solvedSLproofs}
-%Give a proof for each argument in SL.
-\begin{earg}
-\item%$K\eand L$, \therefore $K\eiff L$
-\begin{solutioninlist}
-\begin{proof}
-	\hypo{a1}{K\eand L} \want{K\eiff L}
-	\open
-		\hypo{b1}{K} \want{L}
-		\have{b2}{L} \ae{a1}
-	\close
-	\open
-		\hypo{c1}{L} \want{K}
-		\have{c2}{K} \ae{a1}
-	\close
-	\have{d1}{K \eiff L} \bi{b1-b2,c1-c2}
-\end{proof}
-\end{solutioninlist}
-\item%$A\eif (B\eif C)$, \therefore $(A\eand B)\eif C$
-\begin{solutioninlist}
-\begin{proof}
-	\hypo{a1}{A\eif (B\eif C)} \want{(A\eand B)\eif C}
-	\open
-		\hypo{b1}{A\eand B} \want{C}
-		\have{b2}{A} \ae{b1}
-		\have{b3}{B\eif C} \ce{a1,b2}
-		\have{b4}{B} \ae{b1}
-		\have{b5}{C} \ce{b3, b4}
-	\close
-	\have{c}{(A\eand B)\eif C} \ci{b1-b5}
-\end{proof}
-\end{solutioninlist}
-\item%$P \eand (Q\eor R)$, $P\eif \enot R$, \therefore $Q\eor E$
-\begin{solutioninlist}
-\begin{proof}
-	\hypo{a1}{P \eand (Q\eor R)}
-	\hypo{a2}{P\eif \enot R} \want{Q\eor E}
-	\have{a3}{P} \andE{a1}
-	\have{a4}{\enot R} \ifE{a2,a3}
-	\have{a5}{Q\eor R} \andE{a1}
-	\have{a6}{Q} \orE{a5,a4}
-	\have{c}{Q\eor E} \orI{a6}
-\end{proof}
-\end{solutioninlist}
-\item%$(C\eand D)\eor E$, \therefore $E\eor D$
-\begin{solutioninlist}
-\begin{proof}
-	\hypo{a1}{(C\eand D)\eor E} \want{E\eor D}
-	\open
-		\hypo{b1}{\enot E} \want{D}
-		\have{b2}{C\eand D} \oe{a1,b1}
-		\have{b3}{D} \ae{b2}
-	\close
-	\have{c1}{\enot E\eif D} \ci{b1-b3}
-	\have{c2}{E\eor D} \by{MC}{c1}
-\end{proof}
-\end{solutioninlist}
-\item%$\enot F\eif G$, $F\eif H$, \therefore $G\eor H$
-\begin{solutioninlist}
-\begin{proof}
-	\hypo{a1}{\enot F\eif G}
-	\hypo{a2}{F\eif H} \want{G\eor H}
-	\open
-		\hypo{b1}{\enot G} \want{H}
-		\have{b2}{\enot\enot F} \by{MT}{a1,b1}
-		\have{b3}{F} \by{DN}{b2}
-		\have{b4}{H} \ce{a2,b3}
-	\close
-	\have{c1}{\enot G \eif H} \ci{b1-b4}
-	\have{c2}{G\eor H} \by{MC}{c1}
-\end{proof}
-\end{solutioninlist}
-\item%$(X\eand Y)\eor(X\eand Z)$, $\enot(X\eand D)$, $D\eor M$ \therefore $M$
-\begin{solutioninlist}
-\begin{proof}
-	\hypo{a1}{(X\eand Y)\eor(X\eand Z)}
-	\hypo{a2}{\enot(X\eand D)}
-	\hypo{a3}{D\eor M} \want{M}
-	\open
-		\hypo{b1}{\enot X} \by{for reductio}{}
-		\have{b2}{\enot X\eor \enot Y} \oi{b1}
-		\have{b3}{\enot (X \eand Y)} \by{DeM}{b2}
-		\have{b4}{X\eand Z} \oe{a1,b3}
-		\have{b5}{X} \ae{b4}
-		\have{b6}{\enot X} \by{R}{b1}
-	\close
-	\have{c}{X} \ne{b1-b6}
-	\open
-		\hypo{d1}{\enot M} \by{for reductio}{}
-		\have{d2}{D} \oe{a3,d1}
-		\have{d3}{X\eand D} \ai{c,d2}
-		\have{d4}{\enot(X\eand D)} \by{R}{a2}
-	\close
-	\have{e}{M} \ne{d1-d4}
-\end{proof}
-\end{solutioninlist}
-\end{earg}
-
-
-\solutionsection{ch.proofs}{pr.subinstanceQL}
+\solutionsection{ch.qlproofs}{pr.subinstanceQL}
 \begin{earg}
 \item $Rca$, $Rcb$, $Rcc$, and $Rcd$ are substitution instances of $\forall x Rcx$.
 \item Of the expressions listed, only $\forall y Lby$ is a substitution instance of $\exists x\forall y Lxy$.
 \end{earg}
 
 
-\solutionsection{ch.proofs}{pr.justifyQLproof}
+\solutionsection{ch.qlproofs}{pr.justifyQLproof}
 
 \begin{multicols}{2}
 %$\{\forall x(\exists y)(Rxy \eor Ryx),\forall x\enot Rmx\}\vdash\exists xRxm$
@@ -776,7 +767,7 @@ We need to show that it is impossible to construct a model in which these are bo
 \end{multicols}
 
 
-\solutionsection{ch.proofs}{pr.someQLproofs}
+\solutionsection{ch.qlproofs}{pr.someQLproofs}
 
 \begin{earg}
 \item%$\vdash \forall x Fx \eor \enot \forall x Fx$
@@ -849,8 +840,8 @@ We need to show that it is impossible to construct a model in which these are bo
 \end{earg}
 
 
-
-\solutionsection{ch.proofs}{pr.likes}
+\newpage
+\solutionsection{ch.qlproofs}{pr.likes}
 Regarding the translation of this argument, see p.~\pageref{likes2}.
 
 \begin{proof}
@@ -877,7 +868,7 @@ Regarding the translation of this argument, see p.~\pageref{likes2}.
 \end{proof}
 
 
-\solutionsection{ch.proofs}{pr.QLequivornot}
+\solutionsection{ch.qlproofs}{pr.QLequivornot}
 %\item $\forall x Px \eif Qc$, $\forall x (Px \eif Qc)$
 \noSeq
 %\item $\forall x Px \eand Qc$, $\forall x (Px \eand Qc)$
@@ -892,7 +883,7 @@ Regarding the translation of this argument, see p.~\pageref{likes2}.
 \noSeq
 are logically equivalent.
 
-\solutionsection{ch.proofs}{pr.QLvalidornot}
+\solutionsection{ch.qlproofs}{pr.QLvalidornot}
 \noSeq%\item $\forall x\exists y Rxy$, \therefore\ $\exists y\forall x Rxy$
 \nextSeq%\item $\exists y\forall x Rxy$, \therefore\ $\forall x\exists y Rxy$
 \noSeq%\item $\exists x(Px \eand \enot Qx)$, \therefore\ $\forall x(Px \eif \enot Qx)$
