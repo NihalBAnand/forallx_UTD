@@ -400,6 +400,15 @@ One constant may replace some or all occurrences of the other.
 	\have[\ ]{a}{\script{C}} \by{DIL}{ab,ac,bc}
 \end{proof}
 
+\textsc{Constructive Dilemma}
+
+\begin{proof}
+	\have[m]{line1}{\script{A}\eif\script{B}}
+	\have[n]{line2}{\script{C}\eif\script{D}}
+	\have[p]{line3}{\script{A}\eor\script{C}}
+	\have[\ ]{conc}{\script{B}\eor\script{D}} \by{CD}{line1,line2,line3}
+\end{proof}
+
 \textsc{Modus Tollens}
 
 \begin{proof}
@@ -415,6 +424,8 @@ One constant may replace some or all occurrences of the other.
 	\have[n]{bc}{\script{B}\eif\script{C}}
 	\have[\ ]{ac}{\script{A}\eif\script{C}}\by{HS}{ab,bc}
 \end{proof}
+
+
 
 
 
@@ -441,10 +452,31 @@ $(\script{A}\eor\script{B}) \Longleftrightarrow (\enot\script{A}\eif\script{B})$
 \textsc{Biconditional Exchange} ({\eiff}{ex})\\
 $[(\script{A}\eif\script{B})\eand(\script{B}\eif\script{A})] \Longleftrightarrow (\script{A}\eiff\script{B})$
 
+\newpage
+{\LARGE \bf Replacement Rules (contd.)}\\
+\bigskip
+
 \textsc{Quantifier Negation} (QN)\\
 $\enot\forall\script{x}\script{A} \Longleftrightarrow \exists\script{x}\enot\script{A}$\\
 $\enot\exists\script{x}\script{A} \Longleftrightarrow \forall\script{x}\enot\script{A}$
 
+\textsc{Transposition} (Transp)\\
+$(\script{A}\eif\script{B}) \Longleftrightarrow (\enot\script{B}\eif\enot\script{A})$
+
+\textsc{Associativity} (Assc)\\
+$(\script{A}\eor(\script{B}\eor\script{C})) \Longleftrightarrow ((\script{A}\eor\script{B})\eor\script{C})$\\
+$(\script{A}\eand(\script{B}\eand\script{C})) \Longleftrightarrow ((\script{A}\eand\script{B})\eand\script{C})$
+
+\textsc{Distribution} (Dist)\\
+$(\script{A}\eand(\script{B}\eor\script{C})) \Longleftrightarrow ((\script{A}\eand\script{B})\eor(\script{A}\eand\script{C}))$\\
+$(\script{A}\eor(\script{B}\eand\script{C})) \Longleftrightarrow ((\script{A}\eor\script{B})\eand(\script{A}\eor\script{C}))$
+
+\textsc{Tautology} (Taut)\\
+$(\script{A}\eor\script{A}) \Longleftrightarrow \script{A}$\\
+$(\script{A}\eand\script{A}) \Longleftrightarrow \script{A}$
+
+\textsc{Exportation} (Exp)\\
+$((\script{A}\eand\script{B})\eif\script{C}) \Longleftrightarrow (\script{A}\eif(\script{B}\eif\script{C}))$\\
 }
 
 
