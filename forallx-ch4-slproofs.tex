@@ -541,6 +541,51 @@ The set of sentences $\{\script{A}_1,\script{A}_2,\ldots\}$ is \define{provably 
 
 It is easy to show that a set is provably inconsistent: You just need to assume the sentences in the set and prove a contradiction. Showing that a set is \emph{not} provably inconsistent will be much harder. It would require more than just providing a proof or two; it would require showing that proofs of a certain kind are \emph{impossible}.
 
+\section*{Summary of definitions}
+\begin{itemize}
+\item A sentence \script{A} is a \define{theorem} if and only if $\vdash\script{A}$.
+
+\item Two sentences \script{A} and \script{B} are \define{provably equivalent} if and only if $\script{A}\vdash\script{B}$ and $\script{B}\vdash\script{A}$.
+
+\item $\{\script{A}_1,\script{A}_2,\ldots\}$ is \define{provably inconsistent} if and only if, for some sentence \script{B}, $\{\script{A}_1,\script{A}_2,\ldots\}\vdash(\script{B} \eand \enot \script{B})$.
+\end{itemize}
+
+\section{Proof strategy}
+
+There is no simple recipe for proofs, and there is no substitute for practice. Here, though, are some rules of thumb and strategies to keep in mind.
+
+\paragraph{Work backwards from what you want.}
+The ultimate goal is to derive the conclusion. Look at the conclusion and ask what the introduction rule is for its main logical operator. This gives you an idea of what should happen \emph{just before} the last line of the proof. Then you can treat this line as if it were your goal. Ask what you could do to derive this new goal.
+
+For example: If your conclusion is a conditional $\script{A}\eif\script{B}$, plan to use the {\eif}I rule. This requires starting a subproof in which you assume \script{A}. In the subproof, you want to derive \script{B}.
+
+\paragraph{Work forwards from what you have.}
+When you are starting a proof, look at the premises; later, look at the sentences that you have derived so far. Think about the elimination rules for the main operators of these sentences. These will tell you what your options are.
+
+For example: If you have $\forall x\script{A}$, think about instantiating it for any constant that might be helpful. If you have $\exists x\script{A}$ and intend to use the $\exists$E rule, then you should assume $\script{A}[c|x]$ for some $c$ that is not in use and then derive a conclusion that does not contain $c$.
+
+For a short proof, you might be able to eliminate the premises and introduce the conclusion. A long proof is formally just a number of short proofs linked together, so you can fill the gap by alternately working back from the conclusion and forward from the premises.
+
+
+\paragraph{Change what you are looking at.}
+Replacement rules can often make your life easier. If a proof seems impossible, try out some different substitutions.
+
+For example: It is often difficult to prove a disjunction using the basic rules. If you want to show $\script{A}\eor\script{B}$, it is often easier to show $\enot\script{A}\eif\script{B}$ and use the MC rule.
+
+Showing $\enot \exists x\script{A}$ can also be hard, and it is often easier to show  $\forall x\enot \script{A}$ and use the QN rule.
+
+Some replacement rules should become second nature. If you see a negated disjunction, for instance, you should immediately think of DeMorgan's rule.
+
+\paragraph{Do not forget indirect proof.}
+If you cannot find a way to show something directly, try assuming its negation.
+
+Remember that most proofs can be done either indirectly or directly. One way might be easier--- or perhaps one sparks your imagination more than the other--- but either one is formally legitimate.
+
+\paragraph{Repeat as necessary.} Once you have decided how you might be able to get to the conclusion, ask what you might be able to do with the premises. Then consider the target sentences again and ask how you might reach them.
+
+\paragraph{Persist.}
+Try different things. If one approach fails, then try something else.
+
 \practiceproblems
 
 \solutions
